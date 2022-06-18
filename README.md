@@ -12,7 +12,7 @@
 4. The class implements two `public` methods:
     1. `append` - takes a single `int` argument `num` which is the number that should be ended __TO THE END OF THE ARRAY__. If the array is full, double the size of the array and copy all elements into the newly resized array.
 
-    2. `popIndex` - takes a single `int` argument`index` which is the index in the array that you should return (if it exists). If that index does not __OR__ the number of elements that have been added should not have reached that index, it throws an `IndexOutOfBoundsException`.
+    2. `popIndex` - takes a single `int` argument`index` which is the index in the array that you should return (if it exists). If that index does not exisit __OR__ the number of elements that have been added should not have reached that index, it throws an `IndexOutOfBoundsException`. Once the element is removed, move all elements to the right of it back one index to make the array continuous again.
 
 ## Testing
 
